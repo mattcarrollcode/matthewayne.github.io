@@ -1,0 +1,323 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script>
+    var end = new Date('09/10/2016 15:00');
+
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+        var timer;
+
+        function showRemaining() {
+            var now = new Date();
+            var distance = end - now;
+            if (distance < 0) {
+
+                clearInterval(timer);
+                document.getElementById('countdown').innerHTML = 'now!';
+
+                return;
+            }
+            var days = Math.floor(distance / _day);
+            var hours = Math.floor((distance % _day) / _hour);
+            var minutes = Math.floor((distance % _hour) / _minute);
+            var seconds = Math.floor((distance % _minute) / _second);
+
+            document.getElementById('countdown').innerHTML = days + ' days ';
+            document.getElementById('countdown').innerHTML += hours + ' hours ';
+            document.getElementById('countdown').innerHTML += minutes + ' minutes ';
+            document.getElementById('countdown').innerHTML += seconds + ' seconds';
+        }
+
+        timer = setInterval(showRemaining, 1000);
+    </script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
+  </head>
+  <body>
+    <div style="background-image:url(engagement.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
+
+    <!--Nav Bar-->
+    <div class="contain-to-grid sticky" style="display: inline-block;">
+      <nav class="top-bar" style="text-align:center;">
+        <section class="top-bar-section" >
+          <ul class="center" style="display: table; margin: 0 auto;">
+            <li style="display: table-cell;"><a href="#couple">Couple</a></li>
+            <li style="display: table-cell;"><a href="#wedding">Wedding</a></li>
+            <li style="display: table-cell;"><a href="#Attire">Attire</a></li>
+            <li style="display: table-cell;"><a href="#Travel">Travel</a></li>   
+            <li class="name">
+              <h1 style="color:white"><small>-</small> M<small>&</small>R <small>-</small></h1>
+            </li>
+            <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
+            <li style="display: table-cell;"><a href="#RSVP">RSVP</a></li>
+            <li style="display: table-cell;"><a href="#Bridal">Bridal Party</a></li>
+            <li style="display: table-cell;"><a href="#Photos">Instagram</a></li>    
+         </ul>
+        </section>
+      </nav>
+    </div>
+
+    <!--Home-->
+    
+      <div class="callout large">
+        <div class="row column text-center" style="color:white;">
+          <p class="lead">let the celebration begin!</p>
+          <h2 style="color:white;">Matthew and Rachel</h2>
+          <p class="lead">will say "I do" in</p>
+          <p class="lead"><span id="countdown"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <!--Couple -->
+    <div style="background-image:url(ca6.png); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
+    <div class="row" id="couple">
+      <br>
+      <!--Matt subsection -->
+      <div class="large-4 columns">
+        <div class="panel">
+          <img src="matt.jpg">
+          <h3 class="text-center">Matthew</h3>
+        </div>
+        <div class="panel">
+          <p style="font-size:75%">Matthew is a bay area native, born and raised.  He grew up playing jazz saxophone, tennis, mountain biking, and tinkering with computers alongside his father and grandfather.  He eventually moved south to study Chemical Engineering at UCSB.  While once visiting home, Matthew joined a friend for Bible study one Tuesday night and met Rachel!  After dating long-distance for 6 months, his love for her and for tech innovation led him to return to Silicon Valley.  He now works at <span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">G</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,204,102);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">g</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(0,153,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">l</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">e</span> as a Developer Relations Engineer for YouTube.  In the evenings and on the weekends, you can find him reading constantly, learning bass guitar, riding his bike / driving in the mountains, and adventuring with his fiancee, friends, and family.
+          </p>
+        </div>
+      </div>
+
+      <!--ca pic subsection -->
+      <div class="large-4 columns">
+        <!-- <img src="ca3.png"> -->
+      </div>
+
+      <!--Rachel subsection -->
+      <div class="large-4 columns">
+        <div class="panel">
+          <img src="rachel.jpg">
+          <h3 class="text-center">Rachel</h3>
+        </div>
+        <div class="panel">
+          <p style="font-size:75%">Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at <span style="font-size:13.3333px;font-family:Arial;color:#6a026e;font-weight:700;vertical-align:baseline;white-space:pre-wrap">Yahoo!</span>, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--Copule 2 -->
+    <div class="row">
+      <br>
+      <div class="large-6 columns">
+        <h3>We met</h3>
+        <div class="panel">
+          <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at Yahoo!, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
+          </p>
+          <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!
+          </p>
+        </div>
+      </div>
+      <div class="large-6 columns">
+        <img src="hands.png">
+        <h3>We're saying "yes" to forever</h3>
+        <div class="panel">
+          <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at Yahoo!, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--wedding -->
+    <div class="row" id="wedding">
+      <div class="row column text-center">
+        <h2>The Day's Events</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-8 columns">
+        <div class="panel">
+          <p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p>
+          <p>The reception will begin on the lawn after cocktail hour.  </p>
+          <p>Following the reception, we will be dancing the night away to a diverse playlist of sound,with music ranging from classical jazz to modern pop, and maybe a few additional surprises… </p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="panel">
+          <h3>Nestledown</h3>
+          <p> 22420 Old Santa Cruz Highway, Los Gatos, CA 95033</p>
+          <hr>
+          <p> Saturday, September 10th, 2016 3pm </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="row" id="Attire">
+      <div class="row column text-center">
+        <h2>What to Wear</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="panel">
+          <p>Attire is formal.  
+          Gentlemen, please wear Suit pants and tie, jacket preferred.  
+          Ladies, we recommend you select flats or wedges to wear with your elegant dresses, as the reception will be held on the lawn.
+          The venue requests that shoes be worn at all times.
+          Please see our wedding color schemes below.
+          </p>
+        </div>
+        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
+        <div class="large-2 columns"><div class="panel" style="background-color:white"></div></div>
+        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
+        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
+        <div class="large-2 columns"><div class="panel" style="background-color:white"></div></div>
+        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
+      </div>
+      <div class="large-3 columns">
+        <img src="suit.jpg">
+      </div>
+      <div class="large-3 columns">
+        <img src="dress.jpeg">
+      </div>
+    </div>
+    <hr>
+
+    <!-- Travel -->
+    <div class="row" id="Travel">
+      <div class="large-12 columns text-center">
+        <h2 class="center">Travel</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-4 columns">
+        <img src="fly2.png">
+        <h3>Fly</h3>
+        <div class="panel">
+          <p>We recommend flying into SJC or SFO.  For the sake of proximity to the venue and selected hotels, SJC is the ideal airport to fly into.</p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <img src="drive2.png">
+        <h3>Drive</h3>
+        <div class="panel">
+          <p>Car rental vendors can be found at both SJC and SFO airports.</p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <img src="hotel.png">
+        <h3>Hotel</h3>
+        <div class="panel">
+          <p>We have asked the Marriott hotel (1234 Los Gatos Rd) to reserve a block of rooms for our guests.  To receive the discounted rate, please mention your attendance at the Carroll wedding when booking.  Rooms are limited & available on a first-come, first-serve basis.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--Travel 2 -->
+    <div class="row">
+      <div class="large-12 columns text-center">
+        <h2 class="center">Things to do around town...</h2><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-4 columns">
+        <img src="food.png">
+        <h3>Food</h3>
+        <div class="panel">
+          <p>This is some filler text that we need to fill in</p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <img src="fun.png">
+        <h3>Fun</h3>
+        <div class="panel">
+          <p>This is some filler text that we need to fill in</p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <img src="outdoor.png">
+        <h3>Outdoors</h3>
+        <div class="panel">
+          <p>This is some filler text that we need to fill in</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--Registry -->
+    <div class="row" id="Registry">
+      <div class="large-12 columns">
+        <a class="zola-registry-embed" href="https://www.zola.com/registry/mattandracheltietheknot" data-registry-key="mattandracheltietheknot" data-max-items="12" data-partner-id="mattandracheltietheknot" data-demo="true">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
+      </div>
+    </div>
+    <hr>
+
+    <!-- RSVP -->
+    <div class="row" id="RSVP">
+      <div class="large-12 columns text-center">
+        <h2 class="center">RSVP</h2><br>
+        <div class="panel">
+          <p>This is a mad lib</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Bridal -->
+    <div class="row" id="Bridal">
+      <div class="large-12 columns text-center">
+        <h2 class="center">Bridal Party</h2><br>
+      </div>
+      <div class="row">
+        <div class="large-4 columns">
+          <h3>Bridesmaids</h3>
+          <ul>
+            <li>Monica Saunders<br><small>Maid of Honor</small></li>
+            <li>Stephanie Saunders</li><small>Maid of Honor</small>
+            <li>Katie Hagan</li>
+            <li>Estelle Richardson</li>
+            <li>Kayla Carroll</li>
+            <li>Kenna McKenzie</li>
+            <li>Kaitie Meador</li>
+          </ul>
+          <h3>Groomsman</h3>
+          <ul>
+            <li>Weston Freels</li><small>Best Man</small>
+            <li>Kendall McKenzie</li>
+            <li>Travis Pappa</li>
+            <li>Gregory Saunders</li>
+          </ul>
+        </div>
+        <div class="large-8 columns">
+          <div class="panel">
+            <h2>Monica Saunders</h2>
+            <div class="small-4 columns">
+              <img src="monica.jpg">
+            </div>
+            <div class="small-8 columns">
+              Monica is the eldest of Rachel’s two younger sisters.  She and Rachel grew up playing softball and music together...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+
+  </body>
+</html>
