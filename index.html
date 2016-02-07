@@ -1,15 +1,102 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
+    <link rel="shortcut icon" href="favicon.ico">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matt + Rachel</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="js/vendor/modernizr.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Alex+Brush|Gilda+Display|Cinzel' rel='stylesheet' type='text/css'>
     <script>
+      //event functions
+      function eventC(){
+        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
+        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
+
+      }
+      function eventR(){
+        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
+        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
+
+      }
+      function eventP(){
+        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
+        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
+
+      }
+
+      //bridesmaid funtions
+      function steph(){
+        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
+        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
+
+      }
+      function monica(){
+        document.getElementById("person-name").innerHTML = "Monica Saunders";
+        document.getElementById("person-description").innerHTML = "Monica is the eldest of Rachel’s two younger sisters. She and Rachel grew up playing softball and music together...";
+        document.getElementById("person-picture").innerHTML = "<img src=\"monica.jpg\">";
+
+      }
+      function katie(){
+        document.getElementById("person-name").innerHTML = "Katie Hagan";
+        document.getElementById("person-description").innerHTML = "Katie is Rachel’s best friend from childhood.  They first met during freshman year volleyball tryouts, when Katie boldly placed a frozen water bottle on the back of Rachel’s neck, and elicited a terrifyingly loud shriek.  She smiled mischievously, and apologized.  Within a few months, they became close friends, and though they currently live almost 3000 miles apart, they still make time to pursue their favorite shared hobby together over skype sessions:  listening to music and analyzing every possible aspect of the songs.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"katie.png\">";
+
+      }
+      function estelle(){
+        document.getElementById("person-name").innerHTML = "Estelle Richardson";
+        document.getElementById("person-description").innerHTML = "Estelle is one of Rachel’s closest friends from college.  They first met in their on-campus Christian Fellowship, where Estelle joined a bible study co-led by Rachel.  The following year when Rachel graduated, Estelle took on co-leadership of that same bible study, and the two stayed in touch!  After Estelle graduated, she and Rachel both worked side-by-side as recruiters in the same office.  When she’s not hiring the best tech talent around, you can find Estelle reading intellectual books, building things with wood…";
+        document.getElementById("person-picture").innerHTML = "<img src=\"estelle.jpg\">";
+
+      }
+      function kayla(){
+        document.getElementById("person-name").innerHTML = "Kayla Carroll";
+        document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla enjoys…";
+        document.getElementById("person-picture").innerHTML = "<img src=\"kayla.jpg\">";
+
+      }
+      function kenna(){
+        document.getElementById("person-name").innerHTML = "Kenna McKenzie";
+        document.getElementById("person-description").innerHTML = "SKenna is the one responsible for unintentionally kicking off the journey that led to this marriage.  Being the older sister of Matthew’s closest childhood friend, she’s known him most of  her life, and is the one who invited him to join her for Bible study at Rachel’s house.  In her spare time, Kenna loves cooking (paleo cuisine, specifically) and is quite the excellent chef!";
+        document.getElementById("person-picture").innerHTML = "<img src=\"kenna.jpg\">";
+
+      }
+      function kaitie(){
+        document.getElementById("person-name").innerHTML = "Kaitie Meador";
+        document.getElementById("person-description").innerHTML = "Kaitie is Rachel\’s former roommate, and co-led the Bible study in which Rachel & Matthew met.  Rachel was actually a bridesmaid in Kaitie\’s wedding last year!  In her free time, Kaitie magically brings struggling plants back to health, creates beautiful pottery, and enjoys tackling home-remodel projects alongside her husband!";
+        document.getElementById("person-picture").innerHTML = "<img src=\"kaitie.jpg\">";
+
+      }
+      //GROOMSMEN
+      function weston(){
+        document.getElementById("person-name").innerHTML = "Weston Freels";
+        document.getElementById("person-description").innerHTML = "Weston is Matthew\’s best man.  After meeting at UCSB, Weston and Matthew became best friends and, because they share many of the same interests, have gone on innumerable outdoors adventures together, some of the most memorable being those in which mutual friends came to know the Lord.  Weston is currently working with one of UCSB’s on-campus Fellowships to build Christian community amongst current students.";
+        document.getElementById("person-picture").innerHTML = "<img src=\"weston.jpg\">";
+
+      }
+      function kendall(){
+        document.getElementById("person-name").innerHTML = "Kendall McKenzie";
+        document.getElementById("person-description").innerHTML = "Kendall is Matthew’s closest childhood friend, and has known him practically since birth.  They attended the same church all through high school, and both studied engineering in college.  In his spare time, Kendall loves building things, and is a master woodworker!";
+        document.getElementById("person-picture").innerHTML = "<img src=\"kendall.jpg\">";
+
+      }
+      function travis(){
+        document.getElementById("person-name").innerHTML = "Travis Pappa";
+        document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s...";
+        document.getElementById("person-picture").innerHTML = "<img src=\"travis.jpg\">";
+
+      }
+      function greg(){
+        document.getElementById("person-name").innerHTML = "Gregory Saunders";
+        document.getElementById("person-description").innerHTML = "Gregory is Rachel’s only brother.  Currently studying business in San Diego, in his spare time you will find him singing and playing guitar / piano, recording music, surfing, mentoring high school students at his church, redesigning various things, and perfecting the fine art of brewing good ol’ cups of coffee!";
+        document.getElementById("person-picture").innerHTML = "<img src=\"greg.jpg\">";
+
+      }
     var end = new Date('09/10/2016 15:00');
 
         var _second = 1000;
@@ -24,7 +111,7 @@
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById('countdown').innerHTML = 'now!';
+                document.getElementById('countdown').innerHTML = 'Now!!';
 
                 return;
             }
@@ -49,31 +136,47 @@
     <div style="background-image:url(engagement.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
 
     <!--Nav Bar-->
-    <div class="contain-to-grid sticky" style="display: inline-block;">
+    <nav class="top-bar" style="text-align:center;">
+        <section class="top-bar-section" >
+          <ul class="center" style="display: table; margin: 0 auto;">
+            <li style="display: table-cell;"><a href="#couple">Couple</a></li>
+            <li style="display: table-cell;"><a href="#wedding">Wedding</a></li>
+            <li style="display: table-cell;"><a href="#Attire">Attire</a></li>
+            <li style="display: table-cell;"><a href="#Bridal">Bridal Party</a></li>
+            <li class="name">
+              <h1 style="color:white; font-size:150%"><small>-</small> M<small style="color:white">&</small>R <small>-</small></h1>
+            </li>
+            <li style="display: table-cell;"><a href="#RSVP">RSVP</a></li>
+            <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
+            <li style="display: table-cell;"><a href="#Travel">Travel</a></li>  
+            <li style="display: table-cell;"><a href="#Photos">Local</a></li>    
+         </ul>
+        </section>
+      </nav>
+    <div class="fixed">
       <nav class="top-bar" style="text-align:center;">
         <section class="top-bar-section" >
           <ul class="center" style="display: table; margin: 0 auto;">
             <li style="display: table-cell;"><a href="#couple">Couple</a></li>
             <li style="display: table-cell;"><a href="#wedding">Wedding</a></li>
             <li style="display: table-cell;"><a href="#Attire">Attire</a></li>
-            <li style="display: table-cell;"><a href="#Travel">Travel</a></li>   
+            <li style="display: table-cell;"><a href="#Bridal">Bridal Party</a></li> 
             <li class="name">
               <h1 style="color:white; font-size:150%"><small>-</small> M<small style="color:white">&</small>R <small>-</small></h1>
             </li>
-            <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
             <li style="display: table-cell;"><a href="#RSVP">RSVP</a></li>
-            <li style="display: table-cell;"><a href="#Bridal">Bridal Party</a></li>
-            <li style="display: table-cell;"><a href="#Photos">Instagram</a></li>    
+            <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
+            <li style="display: table-cell;"><a href="#Travel">Travel</a></li>  
+            <li style="display: table-cell;"><a href="#Photos">Local</a></li>     
          </ul>
         </section>
       </nav>
     </div>
 
-    <!--Home-->
-    
+    <!--landing-->
       <div class="callout large">
         <div class="row column" style="color:white; font-family: 'Cinzel', serif;">
-        <div class="large-12 columns text-center">
+        <div class="large-12 large-center columns text-center">
           <!--<p class="lead">let the celebration begin!</p> -->
           <h1 style="color:white; font-size:550%; font-family: 'Alex Brush', cursive;">Matthew and Rachel</h1>
           <p class="lead">will say "I do" in</p>
@@ -98,12 +201,10 @@
           </p>
         </div>
       </div>
-
       <!--ca pic subsection -->
       <div class="large-4 columns">
         <!-- <img src="ca3.png"> -->
       </div>
-
       <!--Rachel subsection -->
       <div class="large-4 columns">
         <div class="panel">
@@ -117,12 +218,15 @@
       </div>
     </div>
     </div>
+    <hr class="show-for-small-only">
+    <hr class="show-for-medium-only">
 
-    <!--Copule 2 -->
+    <!--we met -->
+    <div style="height: 100%;">
     <div class="row">
       <br>
       <div class="large-6 columns">
-        <h3>We met</h3>
+        <h2>We met</h2>
         <div class="panel">
           <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at Yahoo!, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
           </p>
@@ -132,62 +236,74 @@
       </div>
       <div class="large-6 columns">
         <img src="hands.png">
-        <h3>We're saying "yes" to forever</h3>
+        <h2>We're saying "yes" to forever</h2>
         <div class="panel">
           <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at Yahoo!, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
           </p>
         </div>
       </div>
     </div>
+    </div>
+    <div id="wedding"></div>
     <hr>
 
+
     <!--wedding -->
-    <div class="row" id="wedding">
-      <div class="row column text-center">
+    <div style="height: 100%;">
+    <div class="row">
+      <div class="large-8 column text-center">
         <h2>The Day's Events</h2>
       </div>
     </div>
     <div class="row">
       <div class="large-8 columns">
+        <img src="chaple.jpg">
         <div class="panel">
           <p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p>
+        </div>
+        <img src="lawn.jpg">
+        <div class="panel">
           <p>The reception will begin on the lawn after cocktail hour.  </p>
+        </div>
+        <img src="barn.png">
+        <div class="panel">
           <p>Following the reception, we will be dancing the night away to a diverse playlist of sound,with music ranging from classical jazz to modern pop, and maybe a few additional surprises… </p>
         </div>
       </div>
       <div class="large-4 columns">
         <div class="panel">
           <h3>Nestledown</h3>
-          <p> 22420 Old Santa Cruz Highway, Los Gatos, CA 95033</p>
+          <p> <a href="https://www.google.com/maps/place/Nestldown/">22420 Old Santa Cruz Highway, Los Gatos, CA 95033</a></p>
           <hr>
-          <p> Saturday, September 10th, 2016 3pm </p>
+          <p> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Matt+and+Rachel's+Wedding!&dates=20160910T213000Z/20160911T043000Z&details=http://www.mattandracheltietheknot.com/%0A%0AThe+ceremony+will+begin+promptly+at+3pm+in+Nestldown’s+outdoor+chapel.+Guests+can+arrive+to+the+property+as+early+as+2:30pm.+It+is+advisable+to+plan+on+arriving+between+2:30-2:45,+as+there+is+often+traffic+on+Hwy+17+en+route.%0A%0AThe+reception+will+begin+on+the+lawn+after+cocktail+hour.%0A%0AFollowing+the+reception,+we+will+be+dancing+the+night+away+to+a+diverse+playlist+of+sound,with+music+ranging+from+classical+jazz+to+modern+pop,+and+maybe+a+few+additional+surprises…%0A%0AAttire+is+formal.+Gentlemen,+please+wear+Suit+pants+and+tie,+jacket+preferred.+Ladies,+we+recommend+you+select+flats+or+wedges+to+wear+with+your+elegant+dresses,+as+the+reception+will+be+held+on+the+lawn.+The+venue+requests+that+shoes+be+worn+at+all+times.+Please+see+our+wedding+color+schemes+below.%0A&location=Nestldown+22420+Old+Santa+Cruz+Hwy+Los+Gatos,+CA+95033&trp=false&sprop=&sprop=name:">Saturday, September 10th, 2016 3pm</a> </p>
         </div>
       </div>
     </div>
-    <hr>
+    </div>
+    <div id="Attire"></div>
+    </div>
+    <hr >
 
-
-    <div class="row" id="Attire">
-      <div class="row column text-center">
-        <h2>What to Wear</h2>
+    <!--Attire -->
+    <div style="height: 100%;">
+    <div class="row" >
+      <div class="large-12 column text-center">
+        <h1>What to Wear</h1>
       </div>
     </div>
     <div class="row">
       <div class="large-6 columns">
         <div class="panel">
-          <p>Attire is formal.  
-          Gentlemen, please wear Suit pants and tie, jacket preferred.  
-          Ladies, we recommend you select flats or wedges to wear with your elegant dresses, as the reception will be held on the lawn.
-          The venue requests that shoes be worn at all times.
-          Please see our wedding color schemes below.
-          </p>
+          <p>Attire is formal.</p>  
+          <p>Gentlemen, please wear Suit pants and tie, jacket preferred.</p>
+          <p>Ladies, we recommend you select flats or wedges to wear with your elegant dresses, as the reception will be held on the lawn.</p>
+          <small>The venue requests that shoes be worn at all times.
+          Please see our wedding color schemes below.</small>
         </div>
-        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
-        <div class="large-2 columns"><div class="panel" style="background-color:white"></div></div>
-        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
-        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
-        <div class="large-2 columns"><div class="panel" style="background-color:white"></div></div>
-        <div class="large-2 columns"><div class="panel" style="background-color:blue"></div></div>
+        <div class="large-2 small-2 columns"><div class="panel" style="background-color:#0033cc"></div></div>
+        <div class="large-2 small-2 columns"><div class="panel" style="background-color:#660066"></div></div>
+        <div class="large-2 small-2 columns end"><div class="panel" style="background-color:#000000"></div></div>
+
       </div>
       <div class="large-3 columns">
         <img src="suit.jpg">
@@ -196,10 +312,142 @@
         <img src="dress.jpeg">
       </div>
     </div>
+    </div>
+    <hr>
+
+    <!-- Bridal -->
+    <div style="height: 100%;">
+    <div class="row" id="Bridal">
+      <div class="large-12 columns text-center">
+        <h1 class="center">Bridal Party</h1><br>
+      </div>
+      <div class="row">
+        <div class="large-4 columns">
+          <h3>Bridesmaids</h3>
+          <ul style="list-style-type: none; text-decoration: underline;">
+            <li onclick="monica()">Monica Saunders</li>
+            <li onclick="steph()">Stephanie Saunders</li>
+            <li onclick="katie()">Katie Hagan</li>
+            <li onclick="estelle()">Estelle Richardson</li>
+            <li onclick="kayla()">Kayla Carroll</li>
+            <li onclick="kenna()">Kenna McKenzie</li>
+            <li onclick="kaitie()">Kaitie Meador</li>
+          </ul>
+          <h3>Groomsmen</h3>
+          <ul style="list-style-type: none; text-decoration: underline;">
+            <li onclick="weston()">Weston Freels</li>
+            <li onclick="kendall()">Kendall McKenzie</li>
+            <li onclick="travis()">Travis Pappa</li>
+            <li onclick="greg()">Gregory Saunders</li>
+          </ul>
+        </div>
+        <div class="large-8 columns">
+          <div class="panel">
+            <div class="row text-center">
+              <h2 id="person-name">Monica Saunders</h2>
+            </div>
+            <div class="row">
+            <div class="large-4 columns" id="person-picture">
+              <img src="monica.jpg">
+            </div>
+            <div id="person-description" class="large-8 columns">
+              Monica is the eldest of Rachel’s two younger sisters.  She and Rachel grew up playing softball and music together...
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr>
+
+    <!-- RSVP -->
+    <div style="height: 100%;">
+    <div class="row" id="RSVP">
+      <div class="large-12 columns text-center">
+        <h1 class="center">RSVP</h2>
+      </h1>
+      </div>
+      </div>
+    <div class="row text-center">
+      <div class="large-9 large-centered columns">
+        <div class="row">
+          <form action="https://docs.google.com/forms/d/1R3BWEDSiHFkrmWwXUJIjfFWmh_yrp5d6aHmQ5DtzWvw/formResponse" method="post">
+          <div class="large-5 columns">When Rachel and Matthew</div>
+          <div class="large-3 columns"><input type="text" name="entry.45887170" placeholder="               (verb)"></div>
+          <div class="large-4 columns end" style="">down the aisle on Sept 10th,</div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="large-10 large-centered columns">
+        <div class="row">
+          <div class="large-5 columns"><input type="text" name="entry.2129797444" placeholder="    (names of attendee(s), separate by commas)"></div>
+          <div class="large-7 columns end" style="">
+            ( <input type="radio" name="entry.1609226526" value="YES!" checked> will ) / ( <input type="radio" name="entry.1609226526" value="nah man"> will not) be there to celebrate with them!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="large-11 large-centered columns">
+        <div class="row">
+          <div class="large-6 columns" style="">When I / we heard the news, t’was undoubtedly the most</div> 
+          <div class="large-2 columns"><input type="text" name="entry.1852817864" placeholder="             (adj)"></div>
+          <div class="large-3 columns end" style="">announcement of the year!</div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="large-8 large-centered columns">
+        <div class="row">
+          <div class="large-3 columns" style="">I / We are so </div> 
+          <div class="large-3 columns"><input type="text" name="entry.520876080" placeholder="             (adj)"></div>
+          <div class="large-6 columns end" style="">that you guys are finally tying the knot.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="large-12 large-centered columns">
+        <div class="row">
+      <div class="large-3 columns" style="">Wishing you much</div> 
+      <div class="large-2 columns"><input type="text" name="entry.983619700" placeholder="           (noun)"></div>
+      <div class="large-2 columns" style="">and all the best</div>
+      <div class="large-2 columns"><input type="text" name="entry.400415055" placeholder="           (noun)"></div>
+      <div class="large-2 columns end" style="">in your marriage! </div>
+      </div>
+      </div>
+    </div>
+    <div class="row  text-center">
+      <div class="large-2 large-centered small-centered columns">
+        <br>
+        <input class="button secondary" type="submit" value="Submit RSVP">
+      </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="large-12 columns text-center">
+        <p>Please reply no later than July 15th!</p>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <hr>
+
+    <!--Registry -->
+    <div style="height: 100%;">
+    <div class="row" id="Registry">
+      <div class="large-12 columns">
+        <a class="zola-registry-embed" href="https://www.zola.com/registry/mattandracheltietheknot" data-registry-key="mattandracheltietheknot" data-max-items="12" data-partner-id="mattandracheltietheknot" data-demo="true">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
+      </div>
+    </div>
+    </div>
     <hr>
 
     <!-- Travel -->
-    <div class="row" id="Travel">
+    <div style="height: 100%;">
+    <div class="row"  id="Travel">
       <div class="large-12 columns text-center">
         <h2 class="center">Travel</h2>
       </div>
@@ -223,13 +471,15 @@
         <img src="hotel.png">
         <h3>Hotel</h3>
         <div class="panel">
-          <p>We have asked the Marriott hotel (1234 Los Gatos Rd) to reserve a block of rooms for our guests.  To receive the discounted rate, please mention your attendance at the Carroll wedding when booking.  Rooms are limited & available on a first-come, first-serve basis.</p>
+          <p>We will be reserving a block of rooms for our guests.</p>
         </div>
       </div>
     </div>
+    </div>
     <hr>
 
-    <!--Travel 2 -->
+    <!--THings to do -->
+    <!--
     <div class="row">
       <div class="large-12 columns text-center">
         <h2 class="center">Things to do around town...</h2><br>
@@ -259,65 +509,13 @@
       </div>
     </div>
     <hr>
+    -->
 
-    <!--Registry -->
-    <div class="row" id="Registry">
-      <div class="large-12 columns">
-        <a class="zola-registry-embed" href="https://www.zola.com/registry/mattandracheltietheknot" data-registry-key="mattandracheltietheknot" data-max-items="12" data-partner-id="mattandracheltietheknot" data-demo="true">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
-      </div>
-    </div>
-    <hr>
+    
 
-    <!-- RSVP -->
-    <div class="row" id="RSVP">
-      <div class="large-12 columns text-center">
-        <h2 class="center">RSVP</h2><br>
-        <div class="panel">
-          <p>This is a mad lib</p>
-        </div>
-      </div>
-    </div>
-    <hr>
 
-    <!-- Bridal -->
-    <div class="row" id="Bridal">
-      <div class="large-12 columns text-center">
-        <h2 class="center">Bridal Party</h2><br>
-      </div>
-      <div class="row">
-        <div class="large-4 columns">
-          <h3>Bridesmaids</h3>
-          <ul>
-            <li>Monica Saunders<br>
-            <li>Stephanie Saunders</li>
-            <li>Katie Hagan</li>
-            <li>Estelle Richardson</li>
-            <li>Kayla Carroll</li>
-            <li>Kenna McKenzie</li>
-            <li>Kaitie Meador</li>
-          </ul>
-          <h3>Groomsmen</h3>
-          <ul>
-            <li>Weston Freels</li>
-            <li>Kendall McKenzie</li>
-            <li>Travis Pappa</li>
-            <li>Gregory Saunders</li>
-          </ul>
-        </div>
-        <div class="large-8 columns">
-          <div class="panel">
-            <h2>Monica Saunders</h2>
-            <div class="small-4 columns">
-              <img src="monica.jpg">
-            </div>
-            <div class="small-8 columns">
-              Monica is the eldest of Rachel’s two younger sisters.  She and Rachel grew up playing softball and music together...
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
+
+
 
 
 

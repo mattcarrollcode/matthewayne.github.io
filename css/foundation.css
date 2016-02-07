@@ -67,6 +67,7 @@ body {
   position: relative; }
 
 a:hover {
+  text-decoration: underline;
   cursor: pointer; }
 
 img {
@@ -1848,6 +1849,7 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li {
     background: #333333; }
     .top-bar-section ul li > a {
+      text-decoration: none;
       color: #FFFFFF;
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -3719,11 +3721,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
+  color: #848484;
   line-height: inherit;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #424242; }
   a img {
     border: none; }
 

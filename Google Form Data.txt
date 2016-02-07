@@ -1,0 +1,30 @@
+Google Form Data
+
+https://docs.google.com/forms/d/1R3BWEDSiHFkrmWwXUJIjfFWmh_yrp5d6aHmQ5DtzWvw/formResponse
+
+POST
+
+verb:		 entry.45887170:verb1w
+attedees:	 entry.2129797444:adtedw, adfsw
+adj1:		 entry.1852817864:a1w
+adj2:		 entry.520876080:a2w
+noun1:		 entry.983619700:n1w
+noun2:		 entry.400415055:n2w
+
+
+
+https://www.google.com/calendar/render?action=TEMPLATE&text=Matt+and+Rachel's+Wedding!&dates=20140127T224000Z/20140320T221500Z&details=For+details,+link+here:+http://www.example.com&location=Waldorf+Astoria,+301+Park+Ave+,+New+York,+NY+10022&sf=true&output=xml
+
+
+<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ZDg3NG51OGoxcTllMTNwN2U4dms1bXFhNjggbWRyb2lkQG0&amp;tmsrc=mdroid%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+
+<a href="http://www.google.com/calendar/event?
+action=TEMPLATE
+&text=Matt+and+Rachel's+Wedding!
+&dates=[start-custom format='Ymd\\THi00\\Z']/[end-custom format='Ymd\\THi00\\Z']
+&details=[description]
+&location=[location]
+&trp=false
+&sprop=
+&sprop=name:"
+target="_blank" rel="nofollow">Add to my calendar</a>
