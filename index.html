@@ -9,6 +9,10 @@
     <script src="js/vendor/modernizr.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Alex+Brush|Gilda+Display|Cinzel' rel='stylesheet' type='text/css'>
     <script>
+      //cross function
+      function home(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
       //event functions
       function eventC(){
         document.getElementById("person-name").innerHTML = "Stephanie Saunders";
@@ -162,7 +166,7 @@
             <li style="display: table-cell;"><a href="#Attire">Attire</a></li>
             <li style="display: table-cell;"><a href="#Bridal">Bridal Party</a></li> 
             <li class="name">
-              <h1 style="color:white; font-size:150%"><small>-</small> M<small style="color:white">&</small>R <small>-</small></h1>
+              <h1 onclick="home()" style="color:white; font-size:150%"><small>-</small> M<small style="color:white">&</small>R <small>-</small></h1>
             </li>
             <li style="display: table-cell;"><a href="#RSVP">RSVP</a></li>
             <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
