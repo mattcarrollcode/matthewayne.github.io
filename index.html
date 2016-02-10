@@ -1,143 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <link rel="shortcut icon" href="http://www.mattandracheltietheknot.com/favicon.ico">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matt + Rachel</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="http://www.mattandracheltietheknot.com/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/site.js"> </script>
+    <script src="js/modernizr.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Alex+Brush|Gilda+Display|Cinzel' rel='stylesheet' type='text/css'>
-    <script>
-      //cross function
-      function home(){
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-      }
-      //event functions
-      function eventC(){
-        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
-        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
-
-      }
-      function eventR(){
-        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
-        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
-
-      }
-      function eventP(){
-        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
-        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
-
-      }
-
-      //bridesmaid funtions
-      function steph(){
-        document.getElementById("person-name").innerHTML = "Stephanie Saunders";
-        document.getElementById("person-description").innerHTML = "Stephanie is the youngest of Rachel’s two younger sisters.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"steph.jpg\">";
-
-      }
-      function monica(){
-        document.getElementById("person-name").innerHTML = "Monica Saunders";
-        document.getElementById("person-description").innerHTML = "Monica is the eldest of Rachel’s two younger sisters. She and Rachel grew up playing softball and music together...";
-        document.getElementById("person-picture").innerHTML = "<img src=\"monica.jpg\">";
-
-      }
-      function katie(){
-        document.getElementById("person-name").innerHTML = "Katie Hagan";
-        document.getElementById("person-description").innerHTML = "Katie is Rachel’s best friend from childhood.  They first met during freshman year volleyball tryouts, when Katie boldly placed a frozen water bottle on the back of Rachel’s neck, and elicited a terrifyingly loud shriek.  She smiled mischievously, and apologized.  Within a few months, they became close friends, and though they currently live almost 3000 miles apart, they still make time to pursue their favorite shared hobby together over skype sessions:  listening to music and analyzing every possible aspect of the songs.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"katie.png\">";
-
-      }
-      function estelle(){
-        document.getElementById("person-name").innerHTML = "Estelle Richardson";
-        document.getElementById("person-description").innerHTML = "Estelle is one of Rachel’s closest friends from college.  They first met in their on-campus Christian Fellowship, where Estelle joined a bible study co-led by Rachel.  The following year when Rachel graduated, Estelle took on co-leadership of that same bible study, and the two stayed in touch!  After Estelle graduated, she and Rachel both worked side-by-side as recruiters in the same office.  When she’s not hiring the best tech talent around, you can find Estelle reading intellectual books, building things with wood…";
-        document.getElementById("person-picture").innerHTML = "<img src=\"estelle.jpg\">";
-
-      }
-      function kayla(){
-        document.getElementById("person-name").innerHTML = "Kayla Carroll";
-        document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla enjoys…";
-        document.getElementById("person-picture").innerHTML = "<img src=\"kayla.jpg\">";
-
-      }
-      function kenna(){
-        document.getElementById("person-name").innerHTML = "Kenna McKenzie";
-        document.getElementById("person-description").innerHTML = "SKenna is the one responsible for unintentionally kicking off the journey that led to this marriage.  Being the older sister of Matthew’s closest childhood friend, she’s known him most of  her life, and is the one who invited him to join her for Bible study at Rachel’s house.  In her spare time, Kenna loves cooking (paleo cuisine, specifically) and is quite the excellent chef!";
-        document.getElementById("person-picture").innerHTML = "<img src=\"kenna.jpg\">";
-
-      }
-      function kaitie(){
-        document.getElementById("person-name").innerHTML = "Kaitie Meador";
-        document.getElementById("person-description").innerHTML = "Kaitie is Rachel\’s former roommate, and co-led the Bible study in which Rachel & Matthew met.  Rachel was actually a bridesmaid in Kaitie\’s wedding last year!  In her free time, Kaitie magically brings struggling plants back to health, creates beautiful pottery, and enjoys tackling home-remodel projects alongside her husband!";
-        document.getElementById("person-picture").innerHTML = "<img src=\"kaitie.jpg\">";
-
-      }
-      //GROOMSMEN
-      function weston(){
-        document.getElementById("person-name").innerHTML = "Weston Freels";
-        document.getElementById("person-description").innerHTML = "Weston is Matthew\’s best man.  After meeting at UCSB, Weston and Matthew became best friends and, because they share many of the same interests, have gone on innumerable outdoors adventures together, some of the most memorable being those in which mutual friends came to know the Lord.  Weston is currently working with one of UCSB’s on-campus Fellowships to build Christian community amongst current students.";
-        document.getElementById("person-picture").innerHTML = "<img src=\"weston.jpg\">";
-
-      }
-      function kendall(){
-        document.getElementById("person-name").innerHTML = "Kendall McKenzie";
-        document.getElementById("person-description").innerHTML = "Kendall is Matthew’s closest childhood friend, and has known him practically since birth.  They attended the same church all through high school, and both studied engineering in college.  In his spare time, Kendall loves building things, and is a master woodworker!";
-        document.getElementById("person-picture").innerHTML = "<img src=\"kendall.jpg\">";
-
-      }
-      function travis(){
-        document.getElementById("person-name").innerHTML = "Travis Pappa";
-        document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s...";
-        document.getElementById("person-picture").innerHTML = "<img src=\"travis.jpg\">";
-
-      }
-      function greg(){
-        document.getElementById("person-name").innerHTML = "Gregory Saunders";
-        document.getElementById("person-description").innerHTML = "Gregory is Rachel’s only brother.  Currently studying business in San Diego, in his spare time you will find him singing and playing guitar / piano, recording music, surfing, mentoring high school students at his church, redesigning various things, and perfecting the fine art of brewing good ol’ cups of coffee!";
-        document.getElementById("person-picture").innerHTML = "<img src=\"greg.jpg\">";
-
-      }
-    var end = new Date('09/10/2016 15:00');
-
-        var _second = 1000;
-        var _minute = _second * 60;
-        var _hour = _minute * 60;
-        var _day = _hour * 24;
-        var timer;
-
-        function showRemaining() {
-            var now = new Date();
-            var distance = end - now;
-            if (distance < 0) {
-
-                clearInterval(timer);
-                document.getElementById('countdown').innerHTML = 'Now!!';
-
-                return;
-            }
-            var days = Math.floor(distance / _day);
-            var hours = Math.floor((distance % _day) / _hour);
-            var minutes = Math.floor((distance % _hour) / _minute);
-            var seconds = Math.floor((distance % _minute) / _second);
-
-            document.getElementById('countdown').innerHTML = days + ' days ';
-            document.getElementById('countdown').innerHTML += hours + ' hours ';
-            document.getElementById('countdown').innerHTML += minutes + ' minutes ';
-            document.getElementById('countdown').innerHTML += seconds + ' seconds';
-        }
-
-        timer = setInterval(showRemaining, 1000);
-    </script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation/foundation.orbit.js"></script>
   </head>
   <body>
-    <div style="background-image:url(engagement.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
+    <div style="background-image:url(img/engagement.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
 
     <!--Nav Bar-->
     <nav class="top-bar hide-for-small-only" style="text-align:center;">
@@ -169,7 +43,7 @@
               <h1 onclick="home()" style="color:white; font-size:150%"><small>-</small> M<small style="color:white">&</small>R <small>-</small></h1>
             </li>
             <li style="display: table-cell;"><a href="#RSVP">RSVP</a></li>
-            <li style="display: table-cell;"><a href="#Registry">Registry</a></li>
+            <li style="display: table-cell;"><a href="#,">Registry</a></li>
             <li style="display: table-cell;"><a href="#Travel">Travel</a></li>  
             <li style="display: table-cell;"><a href="#Photos">Local</a></li>     
          </ul>
@@ -191,28 +65,29 @@
     </div>
 
     <!--Couple -->
-    <div style="background-image:url(ca6.png); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;">
-    <div class="row" id="couple">
+    <div style="background-image:url(img/ca6.png); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;" id="couple">
+    <br>
+    <div class="row">
       <br>
       <!--Matt subsection -->
       <div class="large-4 columns">
         <div class="panel">
-          <img src="matt.jpg">
+          <img src="img/matt.jpg">
           <h2 class="text-center">Matthew</h2>
         </div>
         <div class="panel">
-          <p style="font-size:75%">Matthew is a bay area native, born and raised.  He grew up playing jazz saxophone, tennis, mountain biking, and tinkering with computers alongside his father and grandfather.  He eventually moved south to study Chemical Engineering at UCSB.  While once visiting home, Matthew joined a friend for Bible study one Tuesday night and met Rachel!  After dating long-distance for 6 months, his love for her and for tech innovation led him to return to Silicon Valley.  He now works at <span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">G</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,204,102);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">g</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(0,153,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">l</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">e</span> as a Developer Relations Engineer for YouTube.  In the evenings and on the weekends, you can find him reading constantly, learning bass guitar, riding his bike / driving in the mountains, and adventuring with his fiancee, friends, and family.
+          <p style="font-size:80%">Matthew is a bay area native, born and raised.  He grew up playing jazz saxophone, tennis, mountain biking, and tinkering with computers alongside his father and grandfather.  He eventually moved south to study Chemical Engineering at UCSB.  While once visiting home, Matthew joined a friend for Bible study one Tuesday night and met Rachel!  After dating long-distance for 6 months, his love for her and for tech innovation led him to return to Silicon Valley.  He now works at <span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">G</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,204,102);font-weight:700;vertical-align:baseline;white-space:pre-wrap">o</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(51,51,255);font-weight:700;vertical-align:baseline;white-space:pre-wrap">g</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(0,153,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">l</span><span style="font-size:13.3333px;font-family:Arial;color:rgb(255,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap">e</span> as a Developer Relations Engineer for YouTube.  In the evenings and on the weekends, you can find him reading constantly, learning bass guitar, riding his bike / driving in the mountains, and adventuring with his fiancee, friends, and family.
           </p>
         </div>
       </div>
       <!--ca pic subsection -->
-      <div class="large-4 columns">
+      <div class="large-3 columns">
         <!-- <img src="ca3.png"> -->
       </div>
       <!--Rachel subsection -->
       <div class="large-4 columns">
         <div class="panel">
-          <img src="rachel.jpg">
+          <img src="img/rachel.jpg">
           <h2 class="text-center">Rachel</h2>
         </div>
         <div class="panel">
@@ -239,7 +114,7 @@
         </div>
       </div>
       <div class="large-6 columns">
-        <img src="hands.png">
+        <img src="img/hands.png">
         <h2>We're saying "yes" to forever</h2>
         <div class="panel">
           <p>Rachel grew up on the beaches and hills of southern Los Angeles.  She developed a love for learning and creating from a very young age, causing her extracurricular activities to evolve constantly.  Her love of holistic learning led her north to attend SCU, where she pursued English, history, philosophy, and art.  After graduating, she decided to stay in the bay area.  While working in retail management at Hugo Boss, she found and joined a new Bible study, the same one Matthew showed up to one Tuesday night, four months later.  After three weeks, he asked her on a date, and the story never ended!  She now manages the APM Program at Yahoo!, and on the weekends you can find her sewing, taking photos, binge watching TED Talks, running, and engaged in intensely-deep conversations about life with her fiance, closest friends, family and total strangers.
@@ -248,28 +123,29 @@
       </div>
     </div>
     </div>
-    <div id="wedding"></div>
-    <hr>
+    <div ></div>
+    <hr id="wedding">
 
 
     <!--wedding -->
     <div style="height: 100%;">
+    <br>
     <div class="row">
       <div class="large-8 column text-center">
-        <h2>The Day's Events</h2>
+        <h2 >The Day's Events</h2>
       </div>
     </div>
     <div class="row">
       <div class="large-8 columns">
-        <img src="chaple.jpg">
+        <img src="img/chaple.jpg">
         <div class="panel">
           <p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p>
         </div>
-        <img src="lawn.jpg">
+        <img src="img/lawn.jpg">
         <div class="panel">
           <p>The reception will begin on the lawn after cocktail hour.  </p>
         </div>
-        <img src="barn.png">
+        <img src="img/barn.png">
         <div class="panel">
           <p>Following the reception, we will be dancing the night away to a diverse playlist of sound,with music ranging from classical jazz to modern pop, and maybe a few additional surprises… </p>
         </div>
@@ -284,12 +160,12 @@
       </div>
     </div>
     </div>
-    <div id="Attire"></div>
     </div>
-    <hr >
+    <hr id="Attire">
 
     <!--Attire -->
     <div style="height: 100%;">
+    <br>
     <div class="row" >
       <div class="large-12 column text-center">
         <h1>What to Wear</h1>
@@ -301,8 +177,8 @@
           <p>Attire is formal.</p>  
           <p>Gentlemen, please wear Suit pants and tie, jacket preferred.</p>
           <p>Ladies, we recommend you select flats or wedges to wear with your elegant dresses, as the reception will be held on the lawn.</p>
-          <small>The venue requests that shoes be worn at all times.
-          Please see our wedding color schemes below.</small>
+          <p>The venue requests that shoes be worn at all times.
+          Please see our wedding color schemes below.</p>
         </div>
         <div class="large-2 small-2 columns"><div class="panel" style="background-color:#0033cc"></div></div>
         <div class="large-2 small-2 columns"><div class="panel" style="background-color:#660066"></div></div>
@@ -310,18 +186,19 @@
 
       </div>
       <div class="large-3 columns">
-        <img src="suit.jpg">
+        <img src="img/attire1.png">
       </div>
       <div class="large-3 columns">
-        <img src="dress.jpeg">
+        <img src="img/attire2.png">
       </div>
     </div>
     </div>
-    <hr>
+    <hr id="Bridal">
 
     <!-- Bridal -->
     <div style="height: 100%;">
-    <div class="row" id="Bridal">
+    <br>
+    <div class="row">
       <div class="large-12 columns text-center">
         <h1 class="center">Bridal Party</h1><br>
       </div>
@@ -352,7 +229,7 @@
             </div>
             <div class="row">
             <div class="large-4 columns" id="person-picture">
-              <img src="monica.jpg">
+              <img src="img/bridal_party/monica.jpg">
             </div>
             <div id="person-description" class="large-8 columns">
               Monica is the eldest of Rachel’s two younger sisters.  She and Rachel grew up playing softball and music together...
@@ -363,14 +240,14 @@
       </div>
     </div>
     </div>
-    <hr>
+    <hr id="RSVP">
 
     <!-- RSVP -->
     <div style="height: 100%;">
-    <div class="row" id="RSVP">
+    <br>
+    <div class="row">
       <div class="large-12 columns text-center">
-        <h1 class="center">RSVP</h2>
-      </h1>
+        <h1 class="center">RSVP</h1>
       </div>
       </div>
     <div class="row text-center">
@@ -437,42 +314,50 @@
     </div>
     </div>
     </div>
-    <hr>
+    <hr id=",">
 
     <!--Registry -->
-    <div style="height: 100%;" id=",">
+    <br>
     <div class="row" id="Registry">
-      <div class="large-12 columns">
-        <a class="zola-registry-embed" href="https://www.zola.com/registry/mattandracheltietheknot" data-registry-key="mattandracheltietheknot" data-max-items="12" data-partner-id="mattandracheltietheknot" data-demo="true">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
+      <div class="large-12 columns text-center">
+        <h1 class="center">Registry</h1>
+    </div>
+    </div>
+    <div style="width:100%; height:100%; background-color:transparent;">
+      <iframe src="zola.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
       </div>
+    <div class="row">
+      <div class="large-12 columns text-center">
+        <a href="https://www.zola.com/registry/mattandracheltietheknot/" class="button secondary">See our full registry here</a>
     </div>
     </div>
-    <hr>
+    <hr id="Travel">
 
     <!-- Travel -->
     <div style="height: 100%;">
-    <div class="row"  id="Travel">
+    <br>
+    <div class="row" >
       <div class="large-12 columns text-center">
         <h2 class="center">Travel</h2>
       </div>
     </div>
     <div class="row">
       <div class="large-4 columns">
-        <img src="fly2.png">
+        <img src="img/fly.png">
         <h3>Fly</h3>
         <div class="panel">
           <p>We recommend flying into SJC or SFO.  For the sake of proximity to the venue and selected hotels, SJC is the ideal airport to fly into.</p>
         </div>
       </div>
       <div class="large-4 columns">
-        <img src="drive2.png">
+        <img src="img/drive.png">
         <h3>Drive</h3>
         <div class="panel">
           <p>Car rental vendors can be found at both SJC and SFO airports.</p>
         </div>
       </div>
       <div class="large-4 columns">
-        <img src="hotel.png">
+        <img src="img/hotel.png">
         <h3>Hotel</h3>
         <div class="panel">
           <p>We will be reserving a block of rooms for our guests.</p>
@@ -491,21 +376,21 @@
     </div>
     <div class="row">
       <div class="large-4 columns">
-        <img src="food.png">
+        <img src="img/food.png">
         <h3>Food</h3>
         <div class="panel">
           <p>This is some filler text that we need to fill in</p>
         </div>
       </div>
       <div class="large-4 columns">
-        <img src="fun.png">
+        <img src="img/fun.png">
         <h3>Fun</h3>
         <div class="panel">
           <p>This is some filler text that we need to fill in</p>
         </div>
       </div>
       <div class="large-4 columns">
-        <img src="outdoor.png">
+        <img src="img/outdoor.png">
         <h3>Outdoors</h3>
         <div class="panel">
           <p>This is some filler text that we need to fill in</p>
@@ -520,8 +405,16 @@
 
 
 
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-53607426-3', 'auto');
+      ga('send', 'pageview');
 
-
+    </script>
   </body>
 </html>
