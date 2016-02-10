@@ -65,7 +65,7 @@
     </div>
 
     <!--Couple -->
-    <div style="background-image:url(img/ca6.png); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;" id="couple">
+    <div style="background-image:url(img/ca6.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;width: 100%;height: 100%;" id="couple">
     <br>
     <div class="row">
       <br>
@@ -138,25 +138,31 @@
     </div>
     <div class="row">
       <div class="large-8 columns">
-        <img src="img/chaple.jpg">
-        <div class="panel">
-          <p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p>
-        </div>
-        <img src="img/lawn.jpg">
-        <div class="panel">
-          <p>The reception will begin on the lawn after cocktail hour.  </p>
-        </div>
-        <img src="img/barn.png">
-        <div class="panel">
-          <p>Following the reception, we will be dancing the night away to a diverse playlist of sound,with music ranging from classical jazz to modern pop, and maybe a few additional surprises… </p>
+        <span id="event-img"><img src="img/chaple.jpg"></span>
+        <div id="event-description" class="panel">
+          <p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p><div class="tiny button secondary radius right" onclick="eventD()">►</div> <div class="tiny button secondary radius disabled">◄</div>
         </div>
       </div>
       <div class="large-4 columns">
+        <div class="row">
+          <br>
+          <div id="buttonC" class="large-9 large-centered columns"><div class="button secondary disabled round" style="font-family: 'Alex Brush', cursive; font-size:150%">
+            Ceremony - 3pm
+          </div></div>
+          <div id="buttonD" class="large-8 large-centered columns"><div onclick="eventD()" class="button round secondary" style="font-family: 'Alex Brush', cursive; font-size:150%">
+            Dinner - 4pm
+          </div></div>
+          <div id="buttonR" class="large-8 large-centered columns"><div onclick="eventR()" class="button round secondary" style="font-family: 'Alex Brush', cursive; font-size:150%">
+            Reception - 7pm
+          </div></div>
+        </div>
+        <br>
+        <hr>
         <div class="panel">
           <h3>Nestledown</h3>
-          <p> <a href="https://www.google.com/maps/place/Nestldown/">22420 Old Santa Cruz Highway, Los Gatos, CA 95033</a></p>
+          <p> <a href="https://www.google.com/maps/place/Nestldown/" target="_blank">22420 Old Santa Cruz Highway, Los Gatos, CA 95033</a></p>
           <hr>
-          <p> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Matt+and+Rachel's+Wedding!&dates=20160910T213000Z/20160911T043000Z&details=http://www.mattandracheltietheknot.com/%0A%0AThe+ceremony+will+begin+promptly+at+3pm+in+Nestldown’s+outdoor+chapel.+Guests+can+arrive+to+the+property+as+early+as+2:30pm.+It+is+advisable+to+plan+on+arriving+between+2:30-2:45,+as+there+is+often+traffic+on+Hwy+17+en+route.%0A%0AThe+reception+will+begin+on+the+lawn+after+cocktail+hour.%0A%0AFollowing+the+reception,+we+will+be+dancing+the+night+away+to+a+diverse+playlist+of+sound,with+music+ranging+from+classical+jazz+to+modern+pop,+and+maybe+a+few+additional+surprises…%0A%0AAttire+is+formal.+Gentlemen,+please+wear+Suit+pants+and+tie,+jacket+preferred.+Ladies,+we+recommend+you+select+flats+or+wedges+to+wear+with+your+elegant+dresses,+as+the+reception+will+be+held+on+the+lawn.+The+venue+requests+that+shoes+be+worn+at+all+times.+Please+see+our+wedding+color+schemes+below.%0A&location=Nestldown+22420+Old+Santa+Cruz+Hwy+Los+Gatos,+CA+95033&trp=false&sprop=&sprop=name:">Saturday, September 10th, 2016 3pm</a> </p>
+          <p> <a target="_blank" href="http://www.google.com/calendar/event?action=TEMPLATE&text=Matt+and+Rachel's+Wedding!&dates=20160910T213000Z/20160911T043000Z&details=http://www.mattandracheltietheknot.com/%0A%0AThe+ceremony+will+begin+promptly+at+3pm+in+Nestldown’s+outdoor+chapel.+Guests+can+arrive+to+the+property+as+early+as+2:30pm.+It+is+advisable+to+plan+on+arriving+between+2:30-2:45,+as+there+is+often+traffic+on+Hwy+17+en+route.%0A%0AThe+reception+will+begin+on+the+lawn+after+cocktail+hour.%0A%0AFollowing+the+reception,+we+will+be+dancing+the+night+away+to+a+diverse+playlist+of+sound,with+music+ranging+from+classical+jazz+to+modern+pop,+and+maybe+a+few+additional+surprises…%0A%0AAttire+is+formal.+Gentlemen,+please+wear+Suit+pants+and+tie,+jacket+preferred.+Ladies,+we+recommend+you+select+flats+or+wedges+to+wear+with+your+elegant+dresses,+as+the+reception+will+be+held+on+the+lawn.+The+venue+requests+that+shoes+be+worn+at+all+times.+Please+see+our+wedding+color+schemes+below.%0A&location=Nestldown+22420+Old+Santa+Cruz+Hwy+Los+Gatos,+CA+95033&trp=false&sprop=&sprop=name:">Saturday, September 10th, 2016 3pm</a> </p>
         </div>
       </div>
     </div>
@@ -189,10 +195,10 @@
 
       </div>
       <div class="large-3 columns">
-        <img src="img/attire1.png">
+        <img src="img/attire1.jpg">
       </div>
       <div class="large-3 columns">
-        <img src="img/attire2.png">
+        <img src="img/attire2.jpg">
       </div>
     </div>
     </div>
