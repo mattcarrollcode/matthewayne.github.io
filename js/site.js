@@ -7,24 +7,24 @@ function eventC(){
   document.getElementById("event-img").innerHTML = "<img src=\"img/chaple.jpg\">";
   document.getElementById("event-description").innerHTML = "<p>The ceremony will begin promptly at 3pm in Nestldown’s outdoor chapel.  Guests can arrive to the property as early as 2:30pm.  It is advisable to plan on arriving between 2:30-2:45, as there is often traffic on Hwy 17 en route.</p><div onclick=\"eventD()\" class=\"tiny button secondary right\">►</div> <div class=\"tiny button secondary disabled\">◄</div>";
   document.getElementById("buttonC").innerHTML = "<div class=\"button secondary round disabled\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Ceremony - 3pm</div>";
-  document.getElementById("buttonD").innerHTML = "<div onclick=\"eventD()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 4pm</div>";
-  document.getElementById("buttonR").innerHTML = "<div onclick=\"eventR()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Reception - 7pm</div>";
+  document.getElementById("buttonD").innerHTML = "<div onclick=\"eventD()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 5pm</div>";
+  document.getElementById("buttonR").innerHTML = "<div onclick=\"eventR()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dancing - 7pm</div>";
 
 }
 function eventD(){
   document.getElementById("event-img").innerHTML = "<img src=\"img/lawn.jpg\">";
   document.getElementById("event-description").innerHTML = "<p>The reception will begin on the lawn after cocktail hour.</p><div onclick=\"eventR()\" class=\"tiny button secondary right\">►</div> <div onclick=\"eventC()\" class=\"tiny button secondary\">◄</div>";
   document.getElementById("buttonC").innerHTML = "<div onclick=\"eventC()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Ceremony - 3pm</div>";
-  document.getElementById("buttonD").innerHTML = "<div class=\"button secondary round disabled\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 4pm</div>";
-  document.getElementById("buttonR").innerHTML = "<div onclick=\"eventR()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Reception - 7pm</div>";
+  document.getElementById("buttonD").innerHTML = "<div class=\"button secondary round disabled\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 5pm</div>";
+  document.getElementById("buttonR").innerHTML = "<div onclick=\"eventR()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dancing - 7pm</div>";
 
 }
 function eventR(){
   document.getElementById("event-img").innerHTML = "<img src=\"img/barn.jpg\">";
   document.getElementById("event-description").innerHTML = "<p>Following the reception, we will be dancing the night away to a diverse playlist of sound,with music ranging from classical jazz to modern pop, and maybe a few additional surprises…</p><div class=\"tiny button secondary disabled right\">►</div> <div onclick=\"eventD()\" class=\"tiny button secondary\">◄</div>";
   document.getElementById("buttonC").innerHTML = "<div onclick=\"eventC()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Ceremony - 3pm</div>";
-  document.getElementById("buttonD").innerHTML = "<div onclick=\"eventD()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 4pm</div>";
-  document.getElementById("buttonR").innerHTML = "<div class=\"button secondary round disabled\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Reception - 7pm</div>";
+  document.getElementById("buttonD").innerHTML = "<div onclick=\"eventD()\" class=\"button round secondary\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dinner - 5pm</div>";
+  document.getElementById("buttonR").innerHTML = "<div class=\"button secondary round disabled\" style=\"font-family: 'Alex Brush', cursive; font-size:150%\">Dancing - 7pm</div>";
 
 }
 
