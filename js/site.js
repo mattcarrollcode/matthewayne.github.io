@@ -55,7 +55,7 @@ function estelle(){
 }
 function kayla(){
   document.getElementById("person-name").innerHTML = "Kayla Carroll";
-  document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla enjoys…";
+  document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla is currently the childrens minister of the church she attends in Lincoln, Nebraska.  Kalya and her husband Jacob will be moving in the summer to the Caribbean where Jacob will be attending medical school.";
   document.getElementById("person-picture").innerHTML = "<img src=\"img/bridal_party/kayla.png\">";
 
 }
@@ -86,7 +86,7 @@ function kendall(){
 }
 function travis(){
   document.getElementById("person-name").innerHTML = "Travis Pappa";
-  document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s...";
+  document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s oldest friends, bonding over their shared and wacky sense of humor as well as a love of the outdoors, backpacking, Star Wars, soccer and most importantly God.  Currently living in San Jose, Travis is teaching rambunctious high schoolers physics and missionary work during the summers (most recently in Cambodia!).";
   document.getElementById("person-picture").innerHTML = "<img src=\"img/bridal_party/travis.jpg\">";
 
 }
