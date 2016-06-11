@@ -5,7 +5,7 @@ import sys
 from bs4 import BeautifulSoup
 
 try:
- 	r=req.get("https://widget.zola.com/v1/widget/registry/mattandracheltietheknot/html?maxItems=12")
+ 	r=req.get("https://widget.zola.com/v1/widget/registry/mattandracheltietheknot/html?maxItems=40&page=2")
 except:
  	print "error getting the page"
  	sys.exit(1)
