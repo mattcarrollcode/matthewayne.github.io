@@ -49,13 +49,13 @@ function katie(){
 }
 function estelle(){
   document.getElementById("person-name").innerHTML = "Estelle Richardson";
-  document.getElementById("person-description").innerHTML = "Estelle is one of Rachel’s closest friends from college.  They first met in their on-campus Christian Fellowship, where Estelle joined a bible study co-led by Rachel.  The following year when Rachel graduated, Estelle took on co-leadership of that same bible study, and the two stayed in touch!  After Estelle graduated, she and Rachel both worked side-by-side as recruiters in the same office.  When she’s not hiring the best tech talent around, you can find Estelle reading intellectual books, building things with wood…";
+  document.getElementById("person-description").innerHTML = "Estelle is one of Rachel’s closest friends from college.  They first met in their on-campus Christian Fellowship, where Estelle joined a bible study co-led by Rachel.  The following year when Rachel graduated, Estelle took on co-leadership of that same bible study, and the two stayed in touch!  After Estelle graduated, she and Rachel both worked side-by-side as recruiters in the same office.  When she’s not hiring the best tech talent around, you can find Estelle reading intellectual books, building things with wood, and baking delicious desserts 🍰.";
   document.getElementById("person-picture").innerHTML = "<img src=\"img/bridal_party/estelle.png\">";
 
 }
 function kayla(){
   document.getElementById("person-name").innerHTML = "Kayla Carroll";
-  document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla is currently the childrens minister of the church she attends in Lincoln, Nebraska.  Kalya and her husband Jacob will be moving in the summer to the Caribbean where Jacob will be attending medical school.";
+  document.getElementById("person-description").innerHTML = "Kayla is Matt’s only sibling and beloved younger sister.  Rachel and Matthew attended her wedding in July 2015, not yet aware that within four months they themselves would be engaged! Kayla is currently the children's minister of the church she attends in Lincoln, Nebraska.  Kalya and her husband Jacob will be moving in the summer to the Caribbean where Jacob will be attending medical school.";
   document.getElementById("person-picture").innerHTML = "<img src=\"img/bridal_party/kayla.png\">";
 
 }
@@ -86,7 +86,7 @@ function kendall(){
 }
 function travis(){
   document.getElementById("person-name").innerHTML = "Travis Pappa";
-  document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s oldest friends, bonding over their shared and wacky sense of humor as well as a love of the outdoors, backpacking, Star Wars, soccer and most importantly God.  Currently living in San Jose, Travis is teaching rambunctious high schoolers physics and missionary work during the summers (most recently in Cambodia!).";
+  document.getElementById("person-description").innerHTML = "Travis is one of Matthew’s oldest friends.  They bonded over their shared and wacky sense of humor as well as a love of the outdoors, backpacking, Star Wars, soccer and most importantly God.  Currently living in San Jose, Travis is teaching rambunctious high schoolers physics and during the summers he does missionary work (most recently in Cambodia!).";
   document.getElementById("person-picture").innerHTML = "<img src=\"img/bridal_party/travis.jpg\">";
 
 }
